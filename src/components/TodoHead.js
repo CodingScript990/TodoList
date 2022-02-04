@@ -4,14 +4,11 @@ import { useTodoState } from "../TodoContext";
 
 // Template in Todo Header
 const TodoHeadBlock = styled.div`
-  padding-top: 48px;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 24px;
+  padding: 32px;
   border-bottom: 1px solid #e9ecef;
 
   h1 {
-    margin: 0;
+    margin: 0 auto;
     font-size: 36px;
     font-family: "Helvetica Neue";
     text-align: center;

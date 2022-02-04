@@ -7,13 +7,13 @@ const TodoTemplateBlock = styled.div`
   height: 768px;
 
   position: relative;
-  background: #ffffff;
+  background: #fefefe;
   border-radius: 16px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   margin: 0 auto;
-  margin-top: 96px;
-  margin-bottom: 32px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 
   display: flex;
   flex-direction: column;
