@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import { createGlobalStyle } from "styled-components";
 import TodoTemplate from "./components/TodoTemplate";
 import TodoHead from "./components/TodoHead";
@@ -7,9 +8,8 @@ import TodoCreate from "./components/TodoCreate";
 import { TodoProvider } from "./TodoContext";
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    background: #e9ecef;
-  }
+  width: 100%;
+  height: 100%;
 `;
 
 function App() {
